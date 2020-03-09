@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="saif.alam.com.ListennerDemo"/>
+  </listeners>
+  <test name="ListenerAtSuiteLevel">
+    <classes>
+      <class name="testngtutorial.VarifyTitleListenerDemo"/>
+    </classes>
+  </test> <!-- ListenerAtSuiteLevel -->
+  <test name="ListenerAtSuiteLevel(failed)">
+    <classes>
+      <class name="testngtutorial.VarifyTitleListenerDemo">
+        <methods>
+          <include name="varifytitle"/>
+        </methods>
+      </class> <!-- testngtutorial.VarifyTitleListenerDemo -->
+    </classes>
+  </test> <!-- ListenerAtSuiteLevel(failed) -->
+</suite> <!-- Failed suite [Suite] -->
