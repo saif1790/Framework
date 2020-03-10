@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13454" started-at="2020-03-08T19:31:38Z" finished-at="2020-03-08T19:31:51Z">
+  <suite name="Default suite" duration-ms="17672" started-at="2020-03-09T10:13:27Z" finished-at="2020-03-09T10:13:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13454" started-at="2020-03-08T19:31:38Z" finished-at="2020-03-08T19:31:51Z">
-      <class name="com.wordpress.testcases.LoginWordPressFactoryTest">
-        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.wordpress.testcases.LoginWordPressFactoryTest@3ab39c39]" name="validLogin" duration-ms="13438" started-at="2020-03-09T01:01:38Z" finished-at="2020-03-09T01:01:51Z">
+    <test name="Default test" duration-ms="17672" started-at="2020-03-09T10:13:27Z" finished-at="2020-03-09T10:13:45Z">
+      <class name="testngtutorial.VarifyTitletestNG">
+        <test-method status="PASS" signature="varifyTitle()[pri:0, instance:testngtutorial.VarifyTitletestNG@3ab39c39]" name="varifyTitle" duration-ms="17640" started-at="2020-03-09T15:43:27Z" description="This is varifying thr title" finished-at="2020-03-09T15:43:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLogin -->
-      </class> <!-- com.wordpress.testcases.LoginWordPressFactoryTest -->
+        </test-method> <!-- varifyTitle -->
+      </class> <!-- testngtutorial.VarifyTitletestNG -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
